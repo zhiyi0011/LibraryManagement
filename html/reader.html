@@ -1,0 +1,69 @@
+<div class="container">
+  <table id="reaTable" class="table"></table>
+</div>
+<!-- 定义菜单栏 -->
+<div id="tbar" class="btn-group">
+	<div style="margin: 0 auto 0 auto;">
+     <button class="btn btn-success" id="addRea"><span class="glyphicon glyphicon-plus" style="margin-right:10px"></span>信息添加&nbsp;&nbsp;Add</button>
+     <button class="btn btn-primary" id="editRea"><span class="glyphicon glyphicon-edit" style="margin-right:10px"></span>信息修改&nbsp;&nbsp;Edit</button>
+     <button class="btn btn-warning" id="delRea"><span class="glyphicon glyphicon-remove" style="margin-right:10px"></span>信息删除&nbsp;&nbsp;Delete</button>
+       </div>
+</div>
+<!-- 用于添加和修改的表单 -->
+<div class="modal fade" id="dataForm">
+   <div class="modal-dialog">
+     <div class="modal-content">
+        <div class="modal-header">
+             <label id="tt" class="col-sm-2 col-sm-offset-5 control-label"></label>
+        </div>
+        <div class="modal-body">
+             <form class="form-horizontal" id="ReaForm">
+             
+             <input type="hidden" name="id" id="id" />
+              <div class="form-group">
+              
+               <label for="Reader_id" class="col-sm-2 control-label">读者编号</label>
+               <div class="col-sm-9">
+                <input type="text" id="Reader_id" name="Reader_id" class="form-control"  placeholder="读者编号">
+               </div>
+             </div>
+               <div class="form-group">
+                 <label for="Rname" class="col-sm-2 control-label">读者姓名</label>
+                 <div class="col-sm-9">
+                 <input type="text" id="Rname" name="Rname" class="form-control"  placeholder="读者姓名">
+              </div>
+              </div>
+               <div class="form-group">
+                 <label for="Sex" class="col-sm-2 control-label">性别</label>
+                 <div class="col-sm-9">
+                 <select id="Sex" name="Sex" class="form-control">
+            
+                   
+                    
+                 </select>
+                </div>
+              </div>
+               <div class="form-group">
+                <label for="Depart" class="col-sm-2 control-label">所在系别</label>
+                <div class="col-sm-9">
+                <input type="text" id="Depart" name="Depart" class="form-control"  placeholder="所在系别">
+               </div>
+               </div>
+                <div class="form-group">
+                  <div class="col-sm-6 col-md-offset-4">
+                   <a href="javascript:void()" class="btn btn-primary" id="btnSub">
+                    <span class="glyphicon glyphicon-ok" style="margin-right:10px"></span>
+                                                        信息提交&nbsp;&nbsp;&nbsp;Submit</a>
+                 
+                </div>
+             </div>
+             
+             
+             
+             </form>
+        </div>
+     </div>
+   </div>  
+</div>
+ 
+<script src="../other/rea.js"></script>

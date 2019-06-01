@@ -1,0 +1,69 @@
+<div class="container">
+	<table id="borTable" class="table"></table>
+</div>
+<!-- 定义菜单栏 -->
+<div id="tbar" class="btn-group">
+	<div style="margin: 0 auto 0 auto;">
+	<button class="btn btn-success" id="addBor"><span class="glyphicon glyphicon-plus" style="margin-right:10px"></span>借阅办理&nbsp;&nbsp;Borrow</button>
+	<button class="btn btn-primary" id="editBor"><span class="glyphicon glyphicon-edit" style="margin-right:10px"></span>信息修改&nbsp;&nbsp;Edit</button>
+	<button class="btn btn-warning" id="delBor"><span class="glyphicon glyphicon-remove" style="margin-right:10px"></span>信息删除&nbsp;&nbsp;Delete</button>
+	</div>
+</div>
+<!-- 用于添加和修改的表单 -->
+<div class="modal fade" id="dataForm">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<label id="tt" class="col-sm-7 col-sm-offset-5 control-label"></label>
+			</div>
+			<div class="modal-body">
+				<form class="form-horizontal" id="BorForm">
+					<input type="hidden" name="Borrow_id" id="Borrow_id" />
+					<div class="form-group">
+						<label for="Reader_id" class="col-sm-3 control-label">读者编号：</label>
+						<div class="col-sm-9">
+							<input type="text" class="form-control" id="Reader_id"
+								name="Reader_id" placeholder="读者编号">
+						</div>
+					</div>
+					<div class="form-group">
+						<label for="book_id" class="col-sm-3 control-label">书号：</label>
+						<div class="col-sm-9">
+							<input type="text" class="form-control" id="book_id"
+								name="book_id" placeholder="书号">
+						</div>
+					</div>
+					<div class="form-group">
+						<label for="Borrow_date" class="col-sm-3 control-label">借阅日期：</label>
+						<div class="col-sm-9">
+							<input type="text" class="form-control" id="Borrow_date"
+								name="Borrow_date" placeholder="借阅日期">
+						</div>
+					</div>
+					<div class="form-group">
+						<label for="Send_date" class="col-sm-3 control-label">还书日期：</label>
+						<div class="col-sm-9">
+							<input type="text" class="form-control" id="Send_date"
+								name="Send_date" placeholder="还书日期">
+						</div>
+					</div>
+					<div class="form-group">
+					<label for="Continue_send" class="col-sm-3 control-label">是否续借：</label> 
+					<div class="col-sm-9">
+					<select id="Continue_send" name="Continue_send" class="form-control"></select>
+					</div>
+				</div>
+					<div class="form-group">
+						<div class="col-sm-offset-4 col-sm-6">
+							<a href="javascript:void()" class="btn btn-primary" id="btnSub">
+								<span class="glyphicon glyphicon-ok" style="margin-right:10px"></span>
+                                                        信息提交&nbsp;&nbsp;&nbsp;Submit
+							</a>
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+</div>
+<script src="../other/borrow.js"></script>

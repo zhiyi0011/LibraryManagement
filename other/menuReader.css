@@ -1,0 +1,201 @@
+@charset "UTF-8";
+
+.panel-group {
+	max-height: 770px;
+	overflow: auto;
+}
+
+.leftMenu {
+	margin: 10px;
+	margin-top: 5px;
+}
+
+.leftMenu .panel-heading {
+	font-size: 14px;
+	padding-left: 20px;
+	height: 36px;
+	line-height: 36px;
+	color: black;
+	position: relative;
+	cursor: pointer;
+	padding-left: 20px;
+	height: 36px;
+	line-height: 36px;
+	color: black;
+	position: relative;
+	cursor: pointer;
+} /*转成手形图标*/
+.leftMenu .panel-heading span {
+	position: absolute;
+	right: 10px;
+	top: 12px;
+}
+
+.leftMenu .menu-item-left {
+	background: transparent;
+	display: inline-block;
+	width: 100%; /* border:0px solid transparent;border-radius: 6px; */
+}
+
+.list-group-item:hover, .leftMenu .menu-item-left:hover {
+	background: #C4E3F3; /* border:1px solid #1E90FF; */
+}
+
+.temp {
+	text-shadow: 2px 2px 5px #CCCCFF;
+}
+
+/* .timgs {
+	background: url(mainphoto.jpg);
+	background-size: 100%, 100%;
+} */
+.container-fluid {
+	background: url(bg.jpg) repeat;
+}
+.temptitle {
+	text-shadow: 2px 2px 5px #8080ff;
+}
+.zhuxiao{
+	position:absolute;
+	top:0;
+	right:30px;
+}
+.zhuxiao a{
+		font-size: 20px;
+	font-family: "LiSu";
+}
+.zhuxiao a:hover{
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.bgB {
+	background: url(a8.jpg);
+	background-size: 100% 100%;
+}
+
+.mine {
+	line-height: 2.4;
+	font-size: 20px;
+	font-family: "LiSu";
+}
+
+.photos {
+	background: url(bg.jpg) repeat;
+	font-size: 20px;
+	font-family: "LiSu";
+}
+
+p {
+	text-indent: 2em;
+}
+
+/* < */
+/* style type ="text /css">* { */
+/* 	margin: 0px; */
+/* 	padding: 0px; */
+/* 	text-align: center; */
+/* } */
+
+/* /*#banner {*/
+*
+/
+/* 	/*width: 300px;*/
+
+
+ 
+
+
+*
+/
+/* 	/*height: 200px;*/
+
+
+ 
+
+
+*
+/
+/* 	/*position: relative; !*相对定位,相对于.btn按钮*!*/
+
+
+ 
+
+
+*
+/
+/* 	/*bottom: 10px;*/
+
+
+ 
+
+
+*
+/
+/* 	/*text-align: left;*/
+
+
+ 
+
+
+*
+/
+/* /*}*/
+
+
+ 
+
+
+*
+/
+
+/* img { */
+/* 	float: left; */
+/* 	width: 1000px; */
+/* 	height: 600px; */
+/* } */
+
+/* .pic image { */
+/* 	display: block; 默认有图片不显示 */
+/* 	position: absolute; 绝对定位.对应的是.pic这个div */
+/* 	top: 0px; */
+/* 	left: 0px; */
+/* } */
+
+/* .pic a { */
+/* 	display: none; */
+/* } */
+
+/* .pic { 专门显现图片区 */
+/* 	position: relative; 相对定位.对应.pic img // */
+/* 	border: 1px solid red; */
+/* } */
+
+/* .btn { */
+/* 	width: 200px; */
+/* 	height: 30px; */
+/* 	position: absolute; 绝对定位相对于banner div */
+/* 	bottom: 10px; */
+/* 	right: 40px; */
+/* } */
+
+/* .btn ul li { */
+/* 	background-color: #000000; 黑色 */
+/* 	color: #ffffff; */
+/* 	list-style-type: none; */
+/* 	width: 18px; */
+/* 	height: 18px; */
+/* 	float: left; */
+/* 	border-radius: 9px; 变成圆的 */
+/* 	text-align: center; */
+/* 	line-height: 18px; */
+/* 	cursor: pointer; 鼠标移动变手指状态 */
+/* 	margin-left: 2px; */
+/* } */
+
+/* .btn ul li.one { */
+/* 	background-color: #ff9966; */
+/* } */
+/* </ */
+/* style */
+/* > */

@@ -1,0 +1,125 @@
+@charset "UTF-8";
+
+.panel-group {
+	max-height: 770px;
+	overflow: auto;
+}
+
+.leftMenu {
+	margin: 10px;
+	margin-top: 5px;
+}
+
+.leftMenu .panel-heading {
+	font-size: 25px;
+	font-family: "LiSu";
+	padding-left: 20px;
+	height: 36px;
+	line-height: 36px;
+	color: black;
+	position: relative;
+	cursor: pointer;
+} /*转成手形图标*/
+.leftMenu .panel-heading span {
+	position: absolute;
+	right: 10px;
+	top: 12px;
+}
+
+.leftMenu .menu-item-left {
+	background: transparent;
+	display: inline-block;
+	width: 100%; /* border:0px solid transparent;border-radius: 6px; */
+}
+
+.list-group-item:hover, .leftMenu .menu-item-left:hover {
+	background: #f0f288; /* border:1px solid #1E90FF; */
+}
+
+.mines {
+	font-size: 15px;
+	font-family: "LiSu";
+	/* position: relative; */
+}
+#time{
+	color:#8000ff;
+}
+.zhuxiao {
+	position: absolute;
+	top: 0;
+	right: 30px;
+}
+
+.zhuxiao a {
+	font-size: 20px;
+	font-family: "LiSu";
+	color:#8000ff;
+}
+
+.zhuxiao a:hover {
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.bgB {
+	background: url(a8.jpg);
+	background-size: 100% 100%;
+}
+/* .bottom{
+	width:100%;
+	height:700px;
+	background:green;
+} */
+/* .bgB {
+	width:100%;
+	
+	position:fixed;
+	top:0;
+	left:0;
+} */
+.temp {
+	text-shadow: 2px 2px 5px #000000;
+}
+
+.temptitle {
+	text-shadow: 2px 2px 5px #8080ff;
+}
+
+.temps {
+	text-shadow: 2px 2px 5px #000000;
+}
+
+.tep {
+	text-shadow: 2px 2px 5px #ee153c;
+}
+
+.photos {
+	/* z-index: 1; */
+	/* height: 4000px; */
+	background: url(bg.jpg) repeat; //
+	background-size: 100%, 100%;
+	/* -moz-background-size: 100% 100%;
+	background-attachment: fixed;
+	background-size:contain;//图片自适应大小 */
+}
+/*.headings{
+	z-index: 1;
+	height: 1000px;
+	background: url(timg9.jpg) no-repeat;
+	background-size: 100% 100%;
+	-moz-background-size: 100% 100%;
+	background-attachment: local;
+	background-size:contain;//图片自适应大小
+	margin:0;
+    padding:0;
+}*/
+/*.photosmain{
+	
+	display:block;
+bottom:0px;
+left:300px;
+position:fixed;
+border:1px solid #fff;
+text-align:center;
+	background-size: 10px 14px;
+}*/

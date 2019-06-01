@@ -1,0 +1,64 @@
+﻿<div class="container">
+	<table id="booTable" class="table"></table>
+</div>
+<div id="tbar" class="btn-group">
+	<div style="margin: 0 auto 0 auto;">
+	<button class="btn btn-success" id="addboo"><span class="glyphicon glyphicon-plus" style="margin-right:10px"></span>书籍添加&nbsp;&nbsp;Add</button>
+	<button class="btn btn-primary" id="editboo"><span class="glyphicon glyphicon-edit" style="margin-right:10px"></span>信息修改&nbsp;&nbsp;Edit</button>
+	<button class="btn btn-warning" id="delboo"><span class="glyphicon glyphicon-remove" style="margin-right:10px"></span>信息删除&nbsp;&nbsp;Delete</button>
+	</div>
+</div>
+	<!-- 用于添加和修改的表单 -->
+	<div class="modal fade" id="dataForm">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<label id="tt" class="col-sm-2 col-sm-offset-5 control-lable"></label>
+				</div>
+				<div class="modal-body">
+					<form class="form-horizontal" id="BooForm">
+					<input type="hidden" name="book_id" id="book_id" />
+					<div class="form-group">
+						<label for="bname" class="col-sm-2 control-lable">图书名字:</label>
+               			<div class="col-sm-9">
+               				<input type="text" id="bname" name="bname" class="form-control" placeholder="图书名字">
+               			</div>
+               		</div>
+               		<div class="form-group">
+               			<label for="bauthor" class="col-sm-2 control-lable">图书作者:</label>
+               			<div class="col-sm-9">
+               				<input type="text" id="bauthor" name="bauthor" class="form-control" placeholder="作者">	
+               			</div>
+               		</div>
+               	<div class="form-group">
+					<label for="borrow" class="col-sm-2 control-label">是否借出:</label> 
+					<div class="col-sm-9">
+					<select id="borrow" name="borrow" class="form-control"></select>
+					</div>
+				</div>
+               		<div class="form-group">
+ 						<label for="btype" class="col-sm-2 control-lable">图书类别:</label>
+ 						<div class="col-sm-9">
+               				<input type="text" id="btype" name="btype" class="form-control" placeholder="图书类别">
+               			</div>
+               		</div>
+               		<div class="form-group">
+						<label for="Inventory" class="col-sm-2 control-lable">库存量:</label>
+						<div class="col-sm-9">
+               				<input type="text" id="Inventory" name="Inventory" class="form-control" placeholder="库存">
+               			</div>
+               		</div>
+
+               		<div class="form-group">
+               			<div class="col-sm-offset-4 col-sm-6">
+                  	 <a href="javascript:void()" class="btn btn-primary " id="btnSub">
+                  	 <span class="glyphicon glyphicon-ok" style="margin-right:10px"></span>
+                                                        信息提交&nbsp;&nbsp;&nbsp;Submit</a>
+                   	</div>
+                   </div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+<script src="../other/book.js"></script>

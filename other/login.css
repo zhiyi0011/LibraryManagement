@@ -1,0 +1,17 @@
+@charset "UTF-8";
+body{
+	background: url(login_bgs.jpg) no-repeat;
+	background-size: 100% 100%;
+	background-attachment: fixed;
+}
+.my{
+	position: absolute;
+	top: 35%;
+	left: 19%;
+	width: 200px;
+	height: 200px;
+	margin: -20px 0 0 -75px;
+	padding: 0 10px;
+	line-height: 2.4;
+	font-style:italic;
+}

@@ -1,0 +1,39 @@
+<div class="container">
+	<table id="demTable" class="table"></table>
+</div>
+<!-- 定义菜单栏 -->
+<div id="tbar" class="btn-group">
+	<button class="btn btn-primary" id="editDem"><span class="glyphicon glyphicon-edit" style="margin-right:10px"></span>书籍报损&nbsp;&nbsp;Damage</button>
+
+</div>
+<!-- 用于报损的表单 -->
+<div class="modal fade" id="dataForm">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<label id="tt" class="col-sm-2 col-sm-offset-5 control-label"></label>
+			</div>
+			<div class="modal-body">
+				<form class="form-horizontal" id="DemForm">
+					<input type="hidden" name="demage_id" id="demage_id" />
+					<div class="form-group">
+						<label for="demage" class="col-sm-3 control-label">损坏程度：</label>
+						<div class="col-sm-9">
+							<input type="text" class="form-control" id="damage"
+								name="damage" placeholder="请输入损坏程度">
+						</div>
+					</div>
+					<div class="form-group">
+						<div class="col-sm-offset-4 col-sm-6">
+							<a href="javascript:void()" class="btn btn-primary" id="btnSub">
+								<span class="glyphicon glyphicon-ok" style="margin-right:10px"></span>
+                                                        信息提交&nbsp;&nbsp;&nbsp;Submit
+							</a>
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+</div>
+<script src="../other/bookdemage.js"></script>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>图书馆管理系统登陆</title>
+<link rel="stylesheet" href="style/bootstrap/css/bootstrap.min.css">
+<link rel="stylesheet" href="other/login.css">
+</head>
+<body>
+<div class="photo"></div>
+<div class="my">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-5 col-md-offset-3">
+				<!--面板-->
+				<div class="panel panel-info">
+					<div class="panel-heading">
+						<h2>图书信息管理系统登录界面</h2>
+					</div>
+					<div class="panel-body">
+						<form id="loginForm">
+							<div class="form-group">
+								<p align="right">
+									<font color="red">用户免账号密码</font>
+								</p>
+								<div class="input-group">
+									<span class="input-group-addon"><span
+										class="glyphicon glyphicon-user"></span></span> <input type="text"
+										class="form-control" id="Aname" name="Aname"
+										required="required" placeholder="管理员账号">
+								</div>
+							</div>
+							<div class="form-group">
+								<div class="input-group">
+									<span class="input-group-addon"><span
+										class="glyphicon glyphicon-lock"></span></span> <input
+										type="password" class="form-control" id="Password"
+										name="Password" required="required" placeholder="密码">
+								</div>
+							</div>
+							<button type="reset" class="btn btn-info" style="float: right">重置输入</button>
+						</form>
+						<a href="html/mainReader.html" class="btn btn-info"
+							style="float: left">用户登录 </a>
+						<div style="width: 90px; margin: 0 auto 0 auto;">
+							<a href="javascript:login()" class="btn btn-info">管理员登录</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	</div>
+</body>
+<script type="text/javascript" src="style/jquery-3.3.1.min.js"></script>
+<script type="text/javascript" src="style/bootstrap/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="login.js"></script>
+</html>
